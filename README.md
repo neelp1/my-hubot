@@ -18,9 +18,26 @@ You can test your hubot by running the following, however some plugins will not
 behave as expected unless the [environment variables](#configuration) they rely
 upon have been set.
 
+#### Install Redis
+
+Easiest way via docker:
+
+    % docker pull redis
+    % docker run --name my-redis -d redis
+
+#### Start Chaty with Slack adapter
+
+You can start chaty for Slack integration running (Slack token should be added as an environment variable):
+
+    % HUBOT_SLACK_TOKEN=$HUBOT_SLACK_TOKEN ./bin/hubot --adapter slack
+
+#### Start Chaty locally
+
 You can start chaty locally by running:
 
     % bin/hubot
+
+#### Once started
 
 You'll see some start up output and a prompt:
 
