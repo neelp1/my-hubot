@@ -8,3 +8,16 @@ module.exports = (robot) ->
   # hears in a chatroom ie "I can't believe it lulz"
   robot.hear /lol/i, (res) ->
     res.send res.random lulz
+
+  # Reply to Hi Chaty
+  greet = ['hey', 'hi', 'hello']
+  robot.respond /(hey|hi|hello)/i, (res) ->
+    res.reply res.random greet
+
+  enterReplies = ['Target Acquired', 'Look who it is..', 'I see you']
+  leaveReplies = ['Thank god, I thought they would never leave', 'Target lost', 'loooosserrr']
+
+  robot.enter (res) ->
+    res.send res.random enterReplies
+  robot.leave (res) ->
+    res.send res.random leaveReplies
