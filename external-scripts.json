@@ -10,5 +10,7 @@
   "hubot-rules",
   "hubot-shipit",
   "hubot-has-no-idea",
-  "hubot-bitbucket-pr"
+  "hubot-bitbucket-pr",
+  "hubot-morse",
+  "hubot-howdoi"
 ]
