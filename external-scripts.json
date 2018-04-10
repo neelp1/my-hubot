@@ -14,5 +14,9 @@
   "hubot-morse",
   "hubot-numbersapi",
   "hubot-lizard-spock",
-  "hubot-roman-numerals"
+  "hubot-roman-numerals",
+  "hubot-relevant-dilbert",
+  "hubot-thank-you",
+  "hubot-explainshell",
+  "hubot-calculator"
 ]
