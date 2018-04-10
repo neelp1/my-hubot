@@ -13,16 +13,20 @@
     "hubot-has-no-idea": "^1.2.0",
     "hubot-help": "^0.2.2",
     "hubot-heroku-keepalive": "^1.0.3",
-    "hubot-howdoi": "^1.0.2",
+    "hubot-lizard-spock": "^1.0.3",
     "hubot-maps": "0.0.3",
     "hubot-morse": "^1.0.7",
+    "hubot-numbersapi": "^1.0.1",
     "hubot-pugme": "^0.1.1",
     "hubot-redis-brain": "0.0.4",
+    "hubot-roman-numerals": "^1.0.0",
     "hubot-rules": "^0.1.2",
     "hubot-scripts": "^2.17.2",
     "hubot-shipit": "^0.2.1",
     "hubot-slack": "^4.4.0",
-    "npm": "^5.8.0"
+    "npm": "^5.8.0",
+    "scraper": "0.0.9",
+    "underscore": "^1.8.3"
   },
   "engines": {
     "node": "8.x.x"
