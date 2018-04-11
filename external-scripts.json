@@ -18,6 +18,5 @@
   "hubot-thank-you",
   "hubot-explainshell",
   "hubot-calculator",
-  "hubot-heroku-deploy-notifier",
-  "hubot-learn"
+  "hubot-heroku-deploy-notifier"
 ]

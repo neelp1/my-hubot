@@ -15,7 +15,6 @@
     "hubot-help": "^0.2.2",
     "hubot-heroku-deploy-notifier": "^0.1.4",
     "hubot-heroku-keepalive": "^1.0.3",
-    "hubot-learn": "^2.0.0",
     "hubot-lizard-spock": "^1.0.3",
     "hubot-maps": "0.0.3",
     "hubot-morse": "^1.0.7",
@@ -30,6 +29,7 @@
     "hubot-slack": "^4.4.0",
     "hubot-thank-you": "0.0.3",
     "npm": "^5.8.0",
+    "redis": "^2.8.0",
     "scraper": "0.0.9",
     "underscore": "^1.8.3"
   },
