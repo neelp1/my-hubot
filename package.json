@@ -6,7 +6,6 @@
   "description": "A simple helpful robot for your Company",
   "dependencies": {
     "hubot": "^2.19.0",
-    "hubot-bitbucket-pr": "^1.0.1",
     "hubot-calculator": "^0.4.0",
     "hubot-diagnostics": "0.0.2",
     "hubot-explainshell": "^1.1.0",
@@ -14,7 +13,9 @@
     "hubot-google-translate": "^0.2.1",
     "hubot-has-no-idea": "^1.2.0",
     "hubot-help": "^0.2.2",
+    "hubot-heroku-deploy-notifier": "^0.1.4",
     "hubot-heroku-keepalive": "^1.0.3",
+    "hubot-learn": "^2.0.0",
     "hubot-lizard-spock": "^1.0.3",
     "hubot-maps": "0.0.3",
     "hubot-morse": "^1.0.7",

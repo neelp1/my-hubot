@@ -10,7 +10,6 @@
   "hubot-rules",
   "hubot-shipit",
   "hubot-has-no-idea",
-  "hubot-bitbucket-pr",
   "hubot-morse",
   "hubot-numbersapi",
   "hubot-lizard-spock",
@@ -18,5 +17,7 @@
   "hubot-relevant-dilbert",
   "hubot-thank-you",
   "hubot-explainshell",
-  "hubot-calculator"
+  "hubot-calculator",
+  "hubot-heroku-deploy-notifier",
+  "hubot-learn"
 ]
