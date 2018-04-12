@@ -27,4 +27,11 @@ module.exports = (robot) ->
 
   robot.respond /how many apples\?/i, (res) ->
     numOfApples = robot.brain.get('totalApples')
-    res.send numOfApples
+    res.reply numOfApples
+
+  robot.respond /My name is (.*)/i, (res) ->
+    robot.brain.set 'yourName', res.match[1]
+
+  robot.respond /what is my name/i, (res) ->
+    yourName = robot.brain.get('yourName')
+    res.send yourName
