@@ -21,3 +21,10 @@ module.exports = (robot) ->
     res.send res.random enterReplies
   robot.leave (res) ->
     res.send res.random leaveReplies
+
+  robot.respond /have an apple/i, (res) ->
+    robot.brain.set 'totalApple', 1
+
+  robot.respond /how many apples\?/i, (res) ->
+    numOfApples = robot.brain.get('totalApple')
+    res.reply numOfApples
