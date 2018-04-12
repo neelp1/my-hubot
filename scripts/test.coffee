@@ -26,5 +26,5 @@ module.exports = (robot) ->
     robot.brain.set 'totalApples', 1
 
   robot.respond /how many apples\?/i, (res) ->
-    numOfApples = robot.brain.get('totalApples') * 1 or 0
+    numOfApples = robot.brain.get('totalApples')
     res.reply numOfApples
