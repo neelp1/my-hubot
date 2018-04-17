@@ -1,15 +1,31 @@
+# Description
+#   General basic chat conversation capabilities
+#
+# Commands:
+#   hubot encode <text> - encodes the given text to morse code
+#   hubot decode <text> - decodes the given text from morse code
+#
+# Configuration:
+#   PORT - may need to change port from default to avoid EADDRINUSE
+#
+# Notes:
+#   Hubot can lol along with you, remember your name,
+#   comment on people leaving and entering room etc.
+#
+# Author:
+#   Neel
 module.exports = (robot) ->
+  robot.respond /testme/i, (res) ->
+    res.send "test"
+
   lulz = ['lol', 'rofl', 'lmao']
 
-  # responds if chaty is asked directly ie "chaty lulz"
   robot.respond /lulz/i, (res) ->
     res.send res.random lulz
 
-  # hears in a chatroom ie "I can't believe it lulz"
   robot.hear /lol/i, (res) ->
     res.send res.random lulz
 
-  # Reply to Hi Chaty
   greet = ['hey', 'hi', 'hello']
   robot.respond /(hey|hi|hello)/i, (res) ->
     res.reply res.random greet

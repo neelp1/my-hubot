@@ -4,7 +4,11 @@
   "private": true,
   "author": "neel.patel@cognizant.com",
   "description": "A simple helpful robot for your Company",
+  "scripts": {
+    "test": "grunt test"
+  },
   "dependencies": {
+    "grunt": "^1.0.2",
     "hubot": "^2.19.0",
     "hubot-calculator": "^0.4.0",
     "hubot-diagnostics": "0.0.2",
@@ -32,6 +36,17 @@
     "redis": "^2.8.0",
     "scraper": "0.0.9",
     "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "chai": "*",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-mocha-test": "~0.7.0",
+    "grunt-release": "~0.6.0",
+    "matchdep": "~0.1.2",
+    "hubot-test-helper": "^1.5.1",
+    "mocha": "*",
+    "sinon": "*",
+    "sinon-chai": "*"
   },
   "engines": {
     "node": "8.x.x"
