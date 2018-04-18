@@ -15,9 +15,6 @@
 # Author:
 #   Neel
 module.exports = (robot) ->
-  robot.respond /testme/i, (res) ->
-    res.send "test"
-
   lulz = ['lol', 'rofl', 'lmao']
 
   robot.respond /lulz/i, (res) ->

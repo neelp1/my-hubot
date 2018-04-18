@@ -17,9 +17,6 @@ describe 'basic', ->
 
   it 'registers respond listener', ->
     expect(@robot.respond).to.have.been.calledWithMatch sinon.match( (val) ->
-      val.test /testme/
-    )
-    expect(@robot.respond).to.have.been.calledWithMatch sinon.match( (val) ->
       val.test /lulz/
     )
     expect(@robot.respond).to.have.been.calledWithMatch sinon.match( (val) ->
