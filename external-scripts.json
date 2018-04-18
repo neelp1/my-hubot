@@ -19,5 +19,6 @@
   "hubot-explainshell",
   "hubot-calculator",
   "hubot-heroku-deploy-notifier",
-  "hubot-sentiment"
+  "hubot-sentiment",
+  "hubot-github-management"
 ]
