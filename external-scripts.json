@@ -18,5 +18,6 @@
   "hubot-thank-you",
   "hubot-explainshell",
   "hubot-calculator",
-  "hubot-heroku-deploy-notifier"
+  "hubot-heroku-deploy-notifier",
+  "hubot-sentiment"
 ]
