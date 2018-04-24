@@ -2,11 +2,10 @@
 #   General basic chat conversation capabilities
 #
 # Commands:
-#   hubot encode <text> - encodes the given text to morse code
-#   hubot decode <text> - decodes the given text from morse code
+#   hubot lol - responds by lol, lmao or rofl
 #
 # Configuration:
-#   PORT - may need to change port from default to avoid EADDRINUSE
+#   PORT - may need to add port variable to avoid EADDRINUSE
 #
 # Notes:
 #   Hubot can lol along with you, remember your name,
