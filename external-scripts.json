@@ -20,5 +20,8 @@
   "hubot-calculator",
   "hubot-heroku-deploy-notifier",
   "hubot-sentiment",
-  "hubot-github-management"
+  "hubot-github-management",
+  "hubot-wikipedia",
+  "hubot-remind-advanced",
+  "hubot-githubfollow"
 ]
