@@ -22,6 +22,5 @@
   "hubot-sentiment",
   "hubot-github-management",
   "hubot-wikipedia",
-  "hubot-remind-advanced",
-  "hubot-githubfollow"
+  "hubot-remind-advanced"
 ]
