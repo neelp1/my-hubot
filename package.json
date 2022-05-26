@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@octokit/rest": "^15.2.6",
-    "grunt": "^1.5.2",
+    "grunt": "^1.5.3",
     "hubot": "^3.0.1",
     "hubot-calculator": "^0.4.0",
     "hubot-diagnostics": "0.0.2",
